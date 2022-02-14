@@ -28,7 +28,7 @@
       document.getElementById("root").addEventListener("input", e => {
         if (e.target.tagName === "INPUT" && input1.value && input2.value) {
           if (solution(input1.value, input2.value)) {
-            result.innerText = "Yep, both strings are valid palindromes.";
+            result.innerText = "Yep, both strings are valid Anagrome.";
           } else {
             result.innerText = "At least one of the strings fails the requirements.";
           }

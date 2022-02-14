@@ -4,7 +4,7 @@ function solution(a, b) {
     for(var i=0;i<x.length;i++)
          if(x[i]==y[i] && x[i]>='A' && x[i]<='Z' && y[i]>='A' && y[i]<='Z')
          continue;
-        else flag =1;
+        else{flag=1;break;};
   }else flag=1;
   if(flag==1) return false;else return true;
 }

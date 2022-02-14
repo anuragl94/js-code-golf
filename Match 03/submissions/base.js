@@ -8,6 +8,6 @@ function solution(a, b) {
       }
       else{flag=1;break;}}
   }
-  if(flag==1){return true;}
+  if(flag==0){return true;}
     return false;
 }

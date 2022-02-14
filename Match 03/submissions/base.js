@@ -8,4 +8,4 @@ function solution(a, b) {
   let arr1=[...a].join("");
   let arr2=[...b].join("");
   return !arr1.localeCompare(arr2)
-}
+} 

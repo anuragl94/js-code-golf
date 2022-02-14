@@ -1,5 +1,5 @@
 function solution() {
-  return `when i find myself in times of trouble
+let str =  `when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -35,4 +35,24 @@ oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
 whisper words of wisdom, let it be`;
+
+let newchar=' ';
+str = str.split(',').join(newchar);
+str = str.split('\n').join(newchar);
+let arr = str.split(" ");
+
+let set = new Set();
+for(let i=0;i<arr.length;i++)
+set.add(arr[i]);
+console.log(set);
+
+let answer=""
+
+set.forEach((element,idx)=>{
+  answer+=element
+  if(idx!=set.length-1)
+  answer+=" ";  
+})
+console.log(answer)
+return answer
 }

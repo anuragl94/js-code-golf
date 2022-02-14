@@ -1,3 +1,3 @@
-function solution(n) {
-  return "";
+function solution() {
+    return "";
 }

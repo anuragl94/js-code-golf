@@ -1,10 +1,1 @@
-function solution(a, b) {
-  var x=Array.from(a.toUpperCase()).sort(),y=Array.from(b.toUpperCase()).sort(),flag=0;
-  if(x.length==y.length){
-    for(var i=0;i<x.length;i++)
-         if(x[i]==y[i] && x[i]>='A'&&x[i]<='Z')
-         continue;
-        else flag=1;
-  }else flag=1;
-  if(flag==1) return false;else return true;
-}
+function solution(r,e){var o=Array.from(r.toUpperCase()).sort(),t=Array.from(e.toUpperCase()).sort(),n=0;if(o.length==t.length)for(var a=0;a<o.length;a++){if(o[a]==t[a]&&o[a]>="A"&&o[a]<="Z")continue;n=1}else n=1;return 1!=n}

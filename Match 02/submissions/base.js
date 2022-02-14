@@ -1,4 +1,4 @@
-function re(str) {
+function solution(str) {
   reg=/let it be/ig;
   reg2=/words of wisdom/ig;
   reg3=/there will be an answer/ig;
@@ -10,8 +10,8 @@ function re(str) {
   str=str.replace(reg4,"&");
 
   return str;
-}
-re(`when i find myself in times of trouble
+
+solution(`when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -47,3 +47,4 @@ oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
 whisper words of wisdom, let it be`);
+}

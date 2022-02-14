@@ -1,5 +1,17 @@
-function solution() {
-  return `when i find myself in times of trouble
+function re(str) {
+  reg=/let it be/ig;
+  reg2=/words of wisdom/ig;
+  reg3=/there will be an answer/ig;
+  reg4=/there is still a/ig;
+
+  str=str.replace(reg,'#');
+  str=str.replace(reg2,'*');
+  str=str.replace(reg3,"%");
+  str=str.replace(reg4,"&");
+
+  return str;
+}
+console.log(re(`when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -34,5 +46,4 @@ let it be, yeah, let it be
 oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
-whisper words of wisdom, let it be`;
-}
+whisper words of wisdom, let it be`));

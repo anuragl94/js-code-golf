@@ -7,3 +7,4 @@ function solution(a, b) {
   if(flag==0){return true;}
     return false;
 }
+console.log('bhanu')

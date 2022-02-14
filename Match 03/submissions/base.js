@@ -1,3 +1,6 @@
 function solution(a, b) {
-  return false;
-}
+  function isLetter(str){
+    return (/^[A-Za-z]+$/.test(str))}
+  var x=a.split('').sort().join();
+  var y=b.split('').sort().join();
+  return (a.length==b.length && isLetter(a) && isLetter(b) && x===y);}

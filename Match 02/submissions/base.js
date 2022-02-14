@@ -1,38 +1,40 @@
 function solution() {
+  let chore = "let it be";
+  let wisdom = "words of wisdom";
   return `when i find myself in times of trouble
 mother mary comes to me
-speaking words of wisdom, let it be
+speaking ${wisdom}, ${chore}
 and in my hour of darkness
 she is standing right in front of me
-speaking words of wisdom, let it be
-let it be, let it be
-let it be, let it be
-whisper words of wisdom, let it be
+speaking ${wisdom}, 
+${chore} ${chore}, 
+${chore} ${chore}, 
+${chore} whisper ${wisdom}, ${chore}
 and when the broken-hearted people
 living in the world agree
-there will be an answer, let it be
+there will be an answer, ${chore}
 for though they may be parted
 there is still a chance that they will see
-there will be an answer, let it be
-let it be, let it be
-let it be, let it be
-yeah, there will be an answer, let it be
-let it be, let it be
-let it be, let it be
-whisper words of wisdom, let it be
-let it be, let it be
-ah, let it be, yeah, let it be
-whisper words of wisdom, let it be
+there will be an answer, ${chore}
+${chore}, ${chore}
+${chore}, ${chore}
+yeah, there will be an answer, ${chore}
+${chore}, ${chore}
+${chore}, ${chore}
+whisper ${wisdom}, ${chore}
+${chore}, ${chore}
+ah, ${chore}, yeah, ${chore}
+whisper ${wisdom}, ${chore}
 and when the night is cloudy
 there is still a light that shines on me
-shine on until tomorrow, let it be
+shine on until tomorrow, ${chore}
 i wake up to the sound of music,
 mother mary comes to me
-speaking words of wisdom, let it be
-let it be, let it be
-let it be, yeah, let it be
-oh, there will be an answer, let it be
-let it be, let it be
-let it be, yeah, let it be
-whisper words of wisdom, let it be`;
+speaking ${wisdom}, ${chore}
+${chore}, ${chore}
+${chore}, yeah, ${chore}
+oh, there will be an answer, ${chore}
+${chore}, ${chore}
+${chore}, yeah, ${chore}
+whisper ${wisdom}, ${chore}`;
 }

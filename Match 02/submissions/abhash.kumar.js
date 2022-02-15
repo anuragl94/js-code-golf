@@ -1,6 +1,7 @@
 function solution() {
     let chore = "let it be";
     let wisdom = "words of wisdom";
+    let answer = "there will be an answer"
     return `when i find myself in times of trouble
   mother mary comes to me
   speaking ${wisdom}, ${chore}
@@ -12,13 +13,13 @@ function solution() {
   ${chore} whisper ${wisdom}, ${chore}
   and when the broken-hearted people
   living in the world agree
-  there will be an answer, ${chore}
+  ${answer}, ${chore}
   for though they may be parted
   there is still a chance that they will see
-  there will be an answer, ${chore}
+  ${answer}, ${chore}
   ${chore}, ${chore}
   ${chore}, ${chore}
-  yeah, there will be an answer, ${chore}
+  yeah, ${answer}, ${chore}
   ${chore}, ${chore}
   ${chore}, ${chore}
   whisper ${wisdom}, ${chore}
@@ -33,7 +34,7 @@ function solution() {
   speaking ${wisdom}, ${chore}
   ${chore}, ${chore}
   ${chore}, yeah, ${chore}
-  oh, there will be an answer, ${chore}
+  oh, ${answer}, ${chore}
   ${chore}, ${chore}
   ${chore}, yeah, ${chore}
   whisper ${wisdom}, ${chore}`;

@@ -1,6 +1,6 @@
 function solution() {
 
-    return `when i find myself in times of trouble
+    let lyrics = `when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -36,12 +36,10 @@ oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
 whisper words of wisdom, let it be`;
-}
 
-function removeDuplicates() {
-    let lines = solution().split("\n");
+    let lines = lyrics.split("\n");
     let lyric = [];
-    // console.log(p);
+
     lines.map(e => {
         lyric.push(...e.split(", "));
     });
@@ -55,15 +53,43 @@ function removeDuplicates() {
         freq[value].push(index);
 
     });
-    console.log(freq)
-    console.log(arr);
-    // return arr[0] + '\n' +
-    //     arr[1] + '\n' +
-    //     arr[2] + ', ' + arr[3] + '\n' +
-    //     arr[4] + '\n' +
-    //     arr[5] + '\n' +
-    //     arr[6] + ', ' + '\n' + arr[7] + '\n' + arr[8] + '\n' +
-    //     arr[9] + '\n' + arr[10] + '\n' + arr[2] + ', ' + arr[3] + '\n' + arr[4] + '\n' + arr[5] + '\n' + arr[6] + '\n' +
-    //     arr[7] + '\n' + arr[8] + '\n' + arr[9] + '\n' + arr[10] + '\n';
 
+    let p = arr[0] + '\n' +
+        arr[1] + '\n' +
+        arr[2] + ', ' + arr[3] + '\n' +
+        arr[4] + '\n' +
+        arr[5] + '\n' +
+        arr[2] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[6] + ', ' + arr[3] + '\n' +
+        arr[7] + '\n' +
+        arr[8] + '\n' +
+        arr[9] + ', ' + arr[3] + '\n' +
+        arr[10] + '\n' +
+        arr[11] + '\n' +
+        arr[9] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[12] + ', ' + arr[9] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[6] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[13] + ', ' + arr[3] + ', ' +
+        arr[12] + ', ' + arr[3] + '\n' +
+        arr[6] + ', ' + arr[3] + '\n' +
+        arr[14] + '\n' +
+        arr[15] + '\n' +
+        arr[16] + ', ' + arr[3] + '\n' +
+        arr[17] + '\n' +
+        arr[1] + '\n' +
+        arr[2] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[13] + ', ' + arr[3] + ', ' + arr[12] + ', ' + arr[3] + '\n' +
+        arr[18] + ', ' + arr[9] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[3] + '\n' +
+        arr[3] + ', ' + arr[12] + ', ' + arr[3] + '\n' +
+        arr[6] + ', ' + arr[3] + '\n';
+    return p;
 }

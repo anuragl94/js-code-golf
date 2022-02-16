@@ -1,5 +1,5 @@
 function solution() {
-    let s = `when i find myself in times of trouble
+    return `when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -35,13 +35,4 @@ oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
 whisper words of wisdom, let it be`;
-    return s;
 }
-str = solution()
-    .split("\n")
-    .map(sentence => sentence.charAt(0).toUpperCase() + sentence.substring(1))
-    .join("\n");
-str = str.replace(/,/g, '');
-str = str.replace(/\n/g, ' ');
-str = [...new Set(str)]
-console.log(str)

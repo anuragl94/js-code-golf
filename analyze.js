@@ -9,7 +9,7 @@ const matchNumber = process.argv[2].padStart(2, 0);
 const directory = `Match ${matchNumber}`;
 
 if (fs.existsSync(directory)) {
-  console.log(CONSOLE_STYLE.BOLD(`\nAnalysing ${directory}`));
+  console.log(CONSOLE_STYLE.BOLD(`\nAnalyzing ${directory}`));
   const submissions = `${directory}/submissions`;
   let fileSizes = [];
 

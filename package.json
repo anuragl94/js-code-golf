@@ -1,0 +1,19 @@
+{
+  "name": "js-code-golf",
+  "version": "1.0.0",
+  "description": "JS code golfing",
+  "scripts": {
+    "analysis": "node scripts/analyze",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragl94/js-code-golf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuragl94/js-code-golf/issues"
+  },
+  "homepage": "https://github.com/anuragl94/js-code-golf#readme"
+}

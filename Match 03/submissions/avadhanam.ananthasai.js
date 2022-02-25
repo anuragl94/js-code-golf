@@ -1,11 +1,11 @@
 function solution(a,b)
 {
-    for(const l of a.toUpperCase())
+    for(let l of a.toUpperCase())
     {
         if(l.charCodeAt()%65>25)
             return false;
     }
-    for(const l of b.toUpperCase())
+    for(let l of b.toUpperCase())
     {
         if(l.charCodeAt()%65>25)
             return false;

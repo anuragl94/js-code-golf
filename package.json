@@ -4,6 +4,8 @@
   "description": "JS code golfing",
   "scripts": {
     "analysis": "node scripts/analyze",
+    "build": "node scripts/build",
+    "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/anuragl94/js-code-golf/issues"
   },
-  "homepage": "https://github.com/anuragl94/js-code-golf#readme"
+  "homepage": "https://github.com/anuragl94/js-code-golf#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

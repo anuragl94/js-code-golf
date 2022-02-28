@@ -1,6 +1,11 @@
+
+if(/^[a-zA-Z]/.test(a))
+{
+
 function solution(a, b) {
     let n1=a.length;
-      let n2=a.length;
+    let n2=a.length;
+
       if(n1!=n2)
       return false;
       a.split('').sort();
@@ -13,4 +18,4 @@ function solution(a, b) {
       }
   }
   
-  
+} return false;//for having number as input 

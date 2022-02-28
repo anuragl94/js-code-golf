@@ -1,0 +1,12 @@
+var1="let it be";
+var2=x+"\n";
+h="words of wisdom, ";
+z="whisper "+h;
+a="mother mary comes to me\n";
+b="speaking "+h+y;
+c=var1+", "+var2;
+d=z+var2;
+e="there will be an answer, "+var2;
+f=var1+", yeah, "+var2;
+g="There is still a";
+const solution=()=> "when i find myself in times of trouble\n"+a+b+"and in my hour of darkness\nshe is standing right in front of me\n"+b+c+c+d+"and when the broken-hearted people\n"+"living in the world agree\n"+e+"for though they may be parted\n"+g+" chance that they will see\n"+e+c+c+"yeah, "+e+c+c+d+"ah, "+f+d+"and when the night is cloudy\n"+g+" light that shines on me\n"+"shine on until tomorrow, "+var2+"i wake up to the sound of music,\n"+a+b+c+f+"oh, "+e+c+f+z+var1;

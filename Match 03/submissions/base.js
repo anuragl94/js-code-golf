@@ -1,3 +1,4 @@
-function solution(a, b) {
-  return false;
+function solution(a,b)
+{
+    return false;
 }

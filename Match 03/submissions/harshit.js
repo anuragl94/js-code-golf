@@ -1,3 +1,7 @@
+if (/^[a-zA-Z]/.test(a)) {
+    
+ 
+ 
 function solution(a, b) {
     let n1=a.length;
       let n2=a.length;
@@ -12,3 +16,5 @@ function solution(a, b) {
       return true;
       }
   }
+}
+return false

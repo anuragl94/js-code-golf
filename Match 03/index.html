@@ -21,12 +21,14 @@
       <div id="result"></div>
     </div>
     <script src="submissions/base.js"></script>
+    <script src="submissions/apoorv.gupta.min.js"></script>
     <script>
       const input1 = document.getElementById("string1");
       const input2 = document.getElementById("string2");
       const result = document.getElementById("result");
       document.getElementById("root").addEventListener("change", e => {
         if (e.target.tagName === "INPUT" && input1.value && input2.value) {
+          console.log(input1.value , input2.value)
           if (solution(input1.value, input2.value)) {
             result.innerText = "Yep, both strings are valid anagrams.";
           } else {

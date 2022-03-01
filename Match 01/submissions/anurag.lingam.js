@@ -14,3 +14,5 @@ function solution(num) {
   }
   return response;
 }
+
+module.exports = solution;
